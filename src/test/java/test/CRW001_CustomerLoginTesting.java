@@ -22,7 +22,7 @@ public class CRW001_CustomerLoginTesting extends commonMethods{
 		custPage.passwordLoginInput.sendKeys(PropertiesReader.getProperty("customerPassword"));
 		custPage.loginButton.click();
 		
-		pringMsg("weerawich");
+		pringMsg("Weerawich");
 	}
 	
 
